@@ -33,7 +33,7 @@
 .container-botao:checked ~ .lista-menu {
     display: block;
 }
-/* adicionar 12/06 */
+
 .lista-menu-titulo,
 .lista-menu-item {
     padding: 1em;
@@ -42,6 +42,7 @@
 
 .lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link {
@@ -50,4 +51,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;  
+}
+
+.container-botao {
+    display: none;
 }
